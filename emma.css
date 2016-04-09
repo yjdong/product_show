@@ -1,0 +1,101 @@
+div.rfk_rw
+{
+	width: 460px; /*make the width the same as the screenshot.*/
+	margin: 0 auto;
+}
+div.rfk_header
+{
+	height: 39px;
+	text-indent: 10px;
+	background-color: rgb(145, 145, 145);
+	/* border radius */
+	border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    /* text vertical center*/
+    line-height: 39px; 
+    font-size: 20px;
+}
+div.rfk_page_info
+{
+	display: none; /*missing from screenshot*/
+}
+div.rfk_prev
+{
+	height: 11px;
+}
+ul
+{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+li
+{
+	float: left;
+	width: 28%;
+	height: 220px;
+	margin-bottom: 30px;
+	/*bow shadow*/
+	-webkit-box-shadow: 0px 0px 10px 5px rgb(211,211,211);
+	overflow: hidden;
+	border: rgb(221,221,221) 1px solid;
+	margin: 0px;
+	padding: 0px;
+}
+li:nth-child(3n)
+{
+	float: right;
+}
+li:nth-child(3n+2)
+{
+	margin-left: 8%
+}
+li:nth-child(n+4)
+{
+	display: none; /* only show first 3 items.*/
+}
+div.rfk_pimage
+{
+	height: 112px;
+}
+img
+{
+	width: 100%;   /* make the image fit the div.*/
+	height: 100%;
+}
+div.rfk_brand
+{
+	color: rgb(24,41,168);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+div.rfk_name, div.rfk_price
+{
+	color: rgb(24,41,168);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-weight:bold;
+}
+a.rfk_more.more
+{
+	color: rgb(24,41,168);
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	display: block;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+span
+{
+	/*make original price and discount price in two rows*/
+	display: block;
+}
+
